@@ -1,1 +1,1 @@
-worker: python N&C.py
+worker: python "N&C.py"
