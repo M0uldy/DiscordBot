@@ -1,4 +1,5 @@
 import discord
+from os import getenv
 from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
@@ -513,5 +514,5 @@ TO START GAME, TYPE .startgame```""")
 
 
 
-client.run("NTA0OTM0MDg0MDI0MzM2Mzk0.DrMQpQ.uKf9WkEKGoEjAlWhsi_F8BB-QPs")
+client.run(getenv("token"))
 
